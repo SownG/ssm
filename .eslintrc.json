@@ -55,6 +55,7 @@
     "no-plusplus": "off",
     "no-useless-constructor": "off",
     "react/no-unused-state": "off",
+    "react/self-closing-comp": 0,
     "jsx-a11y/label-has-for": [
       2,
       {
