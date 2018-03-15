@@ -1,0 +1,82 @@
+.register {
+  padding-top: 80px;
+  
+  .register-intro {
+    .register-title {
+      font-size: 36px;
+      line-height: 43px;
+      font-weight: 900;
+      color: #2c2d30;
+      letter-spacing: 0;
+      padding-top: 6px;
+      padding-bottom: 10px;
+    }
+    .register-description {
+      padding: 0px 150px;
+      display: block;
+      p {
+        width: 33.333%;
+        display: inline-block;
+        padding: 0px 20px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+        
+        &:nth-child(2) {
+          border-left: 2px solid #2c2d30;
+          border-right: 2px solid #2c2d30;
+        }
+      }
+    }
+  }
+
+  .register-form {
+    padding: 20px;
+    .register-step {
+      display: block;
+      .step {
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+        font-weight: bold;
+        border: 2px solid #2c2d30;
+        cursor: pointer;
+        box-shadow: 2px 4px #2c2d30;
+      }
+      .active {
+        background: #4cae4c;
+        color: #fff;
+      }
+    }
+
+    .register-step-block {
+      margin-top: 20px;
+      background: #fff;
+      border: 2px solid #2c2d30;
+      border-radius: 10px;
+      input {
+        border-color: #2c2d30;
+        outline: 0;
+        -webkit-box-shadow: 0 0 0 2px #2c2d30;
+        box-shadow: 0 0 0 2px #2c2d30;
+        height: 50px;
+        font-size: 30px;
+      }
+      button {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 400;
+      }
+      .block-your-school {
+        padding: 70px 250px;
+        .register-url-input {
+          width: 65%;
+        }
+        span {
+          font-size: 30px;
+          font-weight: 400
+        }
+      }
+    }
+  }
+}
